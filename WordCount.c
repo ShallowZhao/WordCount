@@ -25,7 +25,8 @@ int main (int argc, char *argv[])
     else if (argv[1][1] == 'c') // 统计字符
     {
         char c;
-        while ((c = fgetc(fp)) != EOF) cnt ++;
+        while ((c = fgetc(fp)) != EOF) 
+		cnt ++;
         printf("字符数=%d", cnt);
     }
     fclose(fp);
